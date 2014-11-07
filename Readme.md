@@ -85,7 +85,7 @@ $ git commit -m "Initial"
 ### 3. Set up bower
 
 __Create *.bowerrc*:__<br>
-Configure bower to use `bundle/` as its directory.
+Configure bower to put vim plugins into `bundle/`.
 
 ```sh
 $ cd ~/.vim
@@ -93,8 +93,7 @@ $ echo '{"directory":"bundle"}' > .bowerrc
 ```
 
 __Create *bower.json*__:<br>
-Create a bower manifest (`bower.json`) in your `~/.vim`. Easiest way to do
-this is to do *bower init* with defaults.
+Create a bower manifest (`bower.json`) in your `~/.vim`. The easiest way to do this is to run *bower init* with defaults.
 
 ```sh
 $ bower init
