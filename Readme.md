@@ -34,8 +34,9 @@ $ npm install -g bower
 
 <br>
 
-### 2. Set up git in *~/.vim*
+## 2. Set up git in *~/.vim*
 
+__Make ~/.vim__:<br>
 You can manage your setup with Git. This allows you to share your vimfiles via GitHub, as well as be able to deploy your vim setup anywhere. Let's start by putting everything in `~/.vim` under version control.
 
 ```sh
@@ -43,14 +44,14 @@ $ mkdir ~/.vim
 $ cd ~/.vim
 ```
 
-##### Ignoring /bundle
+__Ignoring /bundle:__<br>
 Since `bundle/` (where your vim plugins lie) will be managed by bower, it's best you add this to your `.gitignore`.
 
 ```sh
 $ echo "/bundle" >> .gitignore
 ```
 
-##### Symlink ~/.vimrc
+__Symlink ~/.vimrc:__<br>
 You might want to put your `~/.vimrc` in this directory as well and just symlink to it.
 
 ```sh
@@ -58,7 +59,7 @@ $ touch vimrc.vim
 $ ln -s ~/.vim/vimrc.vim ~/.vimrc
 ```
 
-##### Init and commit
+__Init and commit:__<br>
 Get Git started.
 
 ```sh
@@ -71,7 +72,7 @@ $ git commit -m "Initial"
 
 ### 3. Set up bower
 
-##### Create *.bowerrc*
+__Create *.bowerrc*:__<br>
 Configure bower to use `bundle/` as its directory.
 
 ```sh
@@ -79,7 +80,7 @@ $ cd ~/.vim
 $ echo '{"directory":"bundle"}' > .bowerrc
 ```
 
-##### Create *bower.json*
+__Create *bower.json*__:<br>
 Create a bower manifest (`bower.json`) in your `~/.vim`. Easiest way to do
 this is to do *bower init* with defaults.
 
@@ -91,14 +92,14 @@ $ bower init
 
 ### 4. Set up pathogen
 
-##### Install vim-pathogen
+__Install vim-pathogen:__<br>
 Install pathogen via bower.
 
 ```sh
 $ bower install --save tpope/vim-pathogen
 ```
 
-##### Setup pathogen
+__Setup pathogen:__<br>
 Set up pathogen in your `~/.vimrc`. Here's an example vimrc from [Pathogen's documentation][pathogen-setup].
 
 ```vim
