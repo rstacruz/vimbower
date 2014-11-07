@@ -198,7 +198,7 @@ $ bower install
 
 ## Caveats
 
-* No easy way to lock versions yet.
+* No easy way to lock versions until Bower implements [shrinkwrapping][bower#505].
 * You'll need bower on the system you want to deploy to.
 
 Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a simple script: **[here](https://github.com/rstacruz/vimfiles/blob/master/bin/lock)**
