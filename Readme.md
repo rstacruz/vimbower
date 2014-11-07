@@ -36,7 +36,7 @@ filetype plugin indent on
 
 Set up git, and that's pretty much it. Confused? Read the step-by-step guide below.
 
-:zap: **[Getting started ▸](Getting_started.md)**
+#### :zap: **[Getting started ▸](Getting_started.md)**
 
 <br>
 
@@ -50,7 +50,7 @@ bower install --save scrooloose/nerdtree#master
 bower uninstall --save vim-haml
 ```
 
-:zap: __[Maintenance ▸](Maintaining.md)__
+#### :zap: __[Maintenance ▸](Maintaining.md)__
 
 <br>
 
