@@ -31,7 +31,7 @@ Here are instructions to set up a new configuration from scratch. If you're migr
  
 ### 1. Install node and bower
 
-Install [node.js]. In OS X, the preferred way to to use [Homebrew].
+Install [node.js]. In OS X, the preferred way is to use [Homebrew].
 
 ```sh
 $ brew install nodejs          # osx
