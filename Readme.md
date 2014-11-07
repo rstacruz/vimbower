@@ -1,13 +1,12 @@
 # vimbower
 
-**You can use [bower], [pathogen] and [git] to manage your vim dependencies.**
+##### You can use [bower], [pathogen] and [git] to manage your vim dependencies.
 
 [Bower] is a package manager for frontend projects. It doesn't really care what's in a package, it just happens to be used for JS and CSS most of the time. In reality, it's a package manager for *anything*.
 
-[Pathogen] is a small vim plugin to allow you to put vim plugins into `~/.vim/bundle/`.
+[Pathogen] is a small vim plugin to load vim plugins from `~/.vim/bundle/`.
 
 Vim plugins are typically published in GitHub. Bower fetches from GitHub. Perfect.
-
 Here's how you can use Bower to manage your `~/.vim/bundle`.
 
 <br>
