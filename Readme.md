@@ -44,9 +44,12 @@ Set up git, and that's pretty much it. Confused? Read the step-by-step guide bel
 You can use bower to add, remove and update packages.
 
 ```sh
+# add/remove packages
 bower install --save tpope/vim-sensible
 bower install --save scrooloose/nerdtree#master
 bower uninstall --save vim-haml
+
+# fetch new versions
 bower update
 ```
 
