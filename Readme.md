@@ -20,16 +20,7 @@ Here's how you can use Bower to manage your `~/.vim/bundle`.
 
 ## Get started
 
-Here are instructions to set up a new configuration from scratch. If you're migrating your existing setup, feel free to gloss over anything you've already done before.
-
- * Install node.js and bower
- * Set up `~/.vim` under Git version control
- * Set up bower to manage `~/.vim`
- * Set up pathogen in `~/.vimrc`
-
-### The short way
-
-For those already familiar with Pathogen and Bower:
+Just configure Bower to manage `~/.vim/bundle`, and set up Pathogen. For those already familiar with these tools:
 
 ```sh
 cd ~/.vim
@@ -51,7 +42,7 @@ filetype plugin indent on
 
 Set up git, and that's pretty much it. Skip to the next section.
 
-### Step-by-step setup
+### Step-by-step guide
 
 **[Detailed instructions are available](Details.md)** for those new to Pathogen and Bower.
 

@@ -1,5 +1,12 @@
 # Detailed instructions
 
+This guide is broken into these steps:
+
+1. Install node.js and bower
+2. Set up `~/.vim` under Git version control
+3. Set up bower to manage `~/.vim/bundle`
+4. Set up pathogen in `~/.vimrc`
+
 ## 1. Install node and bower
 
 Install [node.js]. In OS X, the preferred way is to use [Homebrew].
