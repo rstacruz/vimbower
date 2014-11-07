@@ -104,3 +104,4 @@ filetype plugin indent on
 [node.js]: http://nodejs.org
 [pathogen-setup]: https://github.com/tpope/vim-pathogen#runtime-path-manipulation
 [git]: http://git-scm.com
+[github.com/vim-scripts]: https://github.com/vim-scripts

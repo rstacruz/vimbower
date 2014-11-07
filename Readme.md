@@ -91,4 +91,3 @@ Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a sim
 [git]: http://git-scm.com
 [nerdtree]: https://github.com/scrooloose/nerdtree/releases
 [bower#505]: https://github.com/bower/bower/issues/505
-[github.com/vim-scripts]: https://github.com/vim-scripts
