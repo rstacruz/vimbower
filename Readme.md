@@ -44,7 +44,7 @@ Set up git, and that's pretty much it. Skip to the next section.
 
 ### Step-by-step guide
 
-**[Detailed instructions are available](Details.md)** for those new to Pathogen and Bower.
+**[Detailed instructions are also available](Details.md)**. Great for those new to either Pathogen, Bower or Git.
 
 <br>
 
