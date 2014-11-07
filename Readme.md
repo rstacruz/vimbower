@@ -35,6 +35,7 @@ For those already familiar with Pathogen and Bower:
 cd ~/.vim
 npm install -g bower                     # install bower via npm
 echo '{"directory":"bundle"}' > .bowerrc # make bower put plugins in bundle/
+echo "bundle/" >> .gitignore             # don't commit bundles
 bower init                               # create bower.json
 bower install --save tpope/vim-pathogen  # install pathogen
 ```
