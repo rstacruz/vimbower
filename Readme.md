@@ -47,6 +47,7 @@ You can use bower to add, remove and update packages.
 bower install --save tpope/vim-sensible
 bower install --save scrooloose/nerdtree#master
 bower uninstall --save vim-haml
+bower update
 ```
 
 #### :zap: __[Maintenance ▸](Maintaining.md)__
