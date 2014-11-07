@@ -1,8 +1,20 @@
 # vimbower
 
-You can use [bower], [pathogen] and [git] to manage your vim dependencies. This is a guide on setting this up and maintaining it.
+You can use [bower], [pathogen] and [git] to manage your vim dependencies. This is a guide on maintaining a vim setup with these tools.
 
 *(Just to clear a misconception: this is NOT a vim plugin to use Bower from vim.)*
+
+<br>
+
+## What?
+
+[Bower] is a package manager for frontend projects. It doesn't really care what's in a package, it just happens to be used for JS and CSS most of the time. In reality, it's a package manager for *anything*.
+
+[Pathogen] is a small vim plugin to allow you to put vim plugins into `~/.vim/bundle/`.
+
+Vim plugins are typically published in GitHub. Bower fetches from GitHub. Perfect.
+
+Here's how you can use Bower to manage your `~/.vim/bundle`.
 
 <br>
 
@@ -136,6 +148,16 @@ $ bower install --save scrooloose/nerdtree#master
 
 <br>
 
+### Installing from vim.org/scripts
+
+Scripts in the vim repository are available in GitHub under [github.com/vim-scripts].
+
+```sh
+$ bower install --save vim-scripts/indenthtml.vim
+```
+
+<br>
+
 ### Removing packages
 
 ```sh
@@ -200,3 +222,4 @@ Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a sim
 [git]: http://git-scm.com
 [nerdtree]: https://github.com/scrooloose/nerdtree/releases
 [bower#505]: https://github.com/bower/bower/issues/505
+[github.com/vim-scripts]: https://github.com/vim-scripts
