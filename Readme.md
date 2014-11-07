@@ -178,7 +178,7 @@ $ bower update
 
 ### Deploying to a different system
 
-Assuming your setup is managed via Git, you can just check out into `~/.vim`. You can then run `bower install`.
+Assuming your setup is managed via Git, you can just clone your repo into `~/.vim`. You can then run `bower install`.
 
 ```sh
 $ rm -rf ~/.vim   # ...careful!
