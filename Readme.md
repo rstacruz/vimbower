@@ -57,6 +57,21 @@ bower update
 
 <br>
 
+## Advantages over alternatives
+
+There's [neobundle] and [vundle] too. Using bower would have a few advantages:
+
+* __More friendly towards local development__:<br>
+Using the [bower link] command, you can keep development versions anywhere and have bower manage the symlinks.
+
+* __No git submodules__:<br>
+Submodules can get very slow (try doing git status in repo with 30 submodules), messy, and quite ambiguous in things like handling updates.
+
+* __Eventually, version locking__:<br>
+Once bower implements [shrinkwrapping][bower#505] (like [npm][npm shrinkwrap]), it'd be possible to lock the exact versions of your dependencies. In the mean time, there's [this][lock] script.
+
+<br>
+
 ## Deploying to a different system
 
 Assuming your setup is managed via Git, you can just clone your repo into `~/.vim`. You can then run `bower install`.
@@ -78,7 +93,7 @@ bower install
 * No easy way to lock versions until Bower implements [shrinkwrapping][bower#505].
 * You'll need bower on the system you want to deploy to.
 
-Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a simple script: **[here](https://github.com/rstacruz/vimfiles/blob/master/bin/lock)**
+Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a simple script: **[here][lock]**
 
 <br>
 
@@ -95,3 +110,8 @@ Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a sim
 [git]: http://git-scm.com
 [nerdtree]: https://github.com/scrooloose/nerdtree/releases
 [bower#505]: https://github.com/bower/bower/issues/505
+[neobundle]: https://github.com/Shougo/neobundle.vim
+[vundle]: https://github.com/gmarik/Vundle.vim
+[bower link]: http://bower.io/docs/api/#link
+[npm shrinkwrap]: https://www.npmjs.org/doc/cli/npm-shrinkwrap.html
+[lock]: https://github.com/rstacruz/vimfiles/blob/master/bin/lock)
