@@ -89,3 +89,11 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 ```
+
+[pathogen]: https://github.com/tpope/vim-pathogen
+[bower]: http://bower.io
+[Homebrew]: http://brew.sh
+[nvm]: https://github.com/creationix/nvm
+[node.js]: http://nodejs.org
+[pathogen-setup]: https://github.com/tpope/vim-pathogen#runtime-path-manipulation
+[git]: http://git-scm.com
