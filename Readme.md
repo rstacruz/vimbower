@@ -67,6 +67,9 @@ Using the [bower link] command, you can keep development versions anywhere and h
 * __No git submodules__:<br>
 Submodules can get very slow (try doing git status in repo with 30 submodules), messy, and quite ambiguous in things like handling updates.
 
+* __Use versions other than 'master'__:<br>
+For plugins that may be unstable, bower can be set to fetch from a given tag or branch. This is especially great for plugins that follow semver conventions (eg: [vim-css3-syntax]).
+
 * __Eventually, version locking__:<br>
 Once bower implements [shrinkwrapping][bower#505] (like [npm][npm shrinkwrap]), it'd be possible to lock the exact versions of your dependencies. In the mean time, there's [this][lock] script.
 
@@ -115,3 +118,4 @@ Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a sim
 [bower link]: http://bower.io/docs/api/#link
 [npm shrinkwrap]: https://www.npmjs.org/doc/cli/npm-shrinkwrap.html
 [lock]: https://github.com/rstacruz/vimfiles/blob/master/bin/lock)
+[vim-css3-syntax]: https://github.com/hail2u/vim-css3-syntax
