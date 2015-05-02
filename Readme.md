@@ -117,5 +117,5 @@ Until [bower#505] is resolved in Bower 2.0, these caveats are mitigated by a sim
 [vundle]: https://github.com/gmarik/Vundle.vim
 [bower link]: http://bower.io/docs/api/#link
 [npm shrinkwrap]: https://www.npmjs.org/doc/cli/npm-shrinkwrap.html
-[lock]: https://github.com/rstacruz/vimfiles/blob/master/bin/lock)
+[lock]: https://github.com/rstacruz/vimfiles/bower/master/bin/lock
 [vim-css3-syntax]: https://github.com/hail2u/vim-css3-syntax
