@@ -1,3 +1,7 @@
+> __Deprecated:__ As Bower isn't maintained regularly anymore, I suggest using another Vim package management suite. Consider [vim-plug](https://github.com/junegunn/vim-plug).
+
+----
+
 # vimbower
 
 ##### You can use [bower], [pathogen] and [git] to manage your vim dependencies.
